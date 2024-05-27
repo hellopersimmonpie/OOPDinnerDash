@@ -144,7 +144,11 @@
     <ClInclude Include="CustomerGenerator.h" />
     <ClInclude Include="CustomerMale.h" />
     <ClInclude Include="CustomersQueue.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Handler.h" />
     <ClInclude Include="Kitchen.h" />
+    <ClInclude Include="OrderHandler.h" />
+    <ClInclude Include="ServeHandler.h" />
     <ClInclude Include="Table.h" />
     <ClInclude Include="TableMap.h" />
   </ItemGroup>
@@ -154,8 +158,12 @@
     <ClCompile Include="CustomerGenerator.cpp" />
     <ClCompile Include="CustomerMale.cpp" />
     <ClCompile Include="CustomersQueue.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Handler.cpp" />
     <ClCompile Include="Kitchen.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="OrderHandler.cpp" />
+    <ClCompile Include="ServeHandler.cpp" />
     <ClCompile Include="Table.cpp" />
     <ClCompile Include="TableMap.cpp" />
   </ItemGroup>
