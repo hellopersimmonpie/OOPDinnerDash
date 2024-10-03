@@ -1,0 +1,12 @@
+﻿  GameManager.cpp
+C:\Users\deama\source\repos\DinnerDashOOP\GameManager.h(15,16): error C2664: 'Player::Player(Player &&)': cannot convert argument 1 from 'const std::string' to 'const Player &'
+C:\Users\deama\source\repos\DinnerDashOOP\GameManager.h(15,16): message : Reason: cannot convert from 'const std::string' to 'const Player'
+C:\Users\deama\source\repos\DinnerDashOOP\GameManager.h(15,55): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\deama\source\repos\DinnerDashOOP\Player.h(23,1): message : see declaration of 'Player::Player'
+  main.cpp
+C:\Users\deama\source\repos\DinnerDashOOP\GameManager.h(15,16): error C2664: 'Player::Player(Player &&)': cannot convert argument 1 from 'const std::string' to 'const Player &'
+C:\Users\deama\source\repos\DinnerDashOOP\GameManager.h(15,16): message : Reason: cannot convert from 'const std::string' to 'const Player'
+C:\Users\deama\source\repos\DinnerDashOOP\GameManager.h(15,55): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\deama\source\repos\DinnerDashOOP\Player.h(23,1): message : see declaration of 'Player::Player'
+  TableManager.cpp
+  Generating Code...
